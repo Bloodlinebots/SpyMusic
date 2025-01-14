@@ -25,7 +25,7 @@ LOGGER_ID = int(getenv("LOGGER_ID", ""))
 
 OWNER_ID = int(getenv("OWNER_ID", ""))
 
-BOT_USERNAME = getenv("BOT_USERNAME" , "ZEUS_MUSIC_ROBOT")
+BOT_USERNAME = getenv("BOT_USERNAME" , "PROFESSIONAL_MUSIC_BOT")
 
 COMMAND_HANDLER = getenv("COMMAND_HANDLER", "! / .").split()
 
@@ -35,7 +35,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Ansuman-web/SpyMusic.git",
+    "https://github.com/Bloodlinebots/SpyMusic.git",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "SPY")
 GIT_TOKEN = getenv(

@@ -101,9 +101,15 @@ async def settings_back_markup(client, CallbackQuery: CallbackQuery, _):
 async def gib_repo_callback(_, callback_query):
     await callback_query.edit_message_media(
         media=InputMediaVideo(
-            "https://telegra.ph/file/b1367262cdfbcd0b2af07.mp4", 
+            "https://envs.sh/vvg.mp4", 
             has_spoiler=True, 
-            caption="ʟᴜɴᴅ ʟᴇʟᴇ ᴍᴇʀᴀ ʀᴇᴘᴏ ᴋʏᴀ ᴋᴀʀᴇɢᴀ, ʟᴇɢᴀ ᴋʏᴀ ʙʜᴏsᴀᴅɪᴋᴇ"
+            caption="
+Raat ka sannata, dil mein udaasi,
+Sapne to the bade, par kismat thi khaali 🌙💔,
+Kitaabon mein chhupi thi, ek kahani purani,
+Har page par tha dard, jo thi purani yahani 📚,
+Barosa tha khud par, par kabhi na tha saath,
+Mehnat thi lekin, manzil thi ek raaz 🖤✍️."
         ),
         reply_markup=InlineKeyboardMarkup(
             [

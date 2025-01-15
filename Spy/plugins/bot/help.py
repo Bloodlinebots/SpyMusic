@@ -126,7 +126,7 @@ async def first_pagexx(client, CallbackQuery, _):
     except:
         return
 
-@app.on_callback_query(filters.regex("unbornedvillian") & ~BANNED_USERS)
+@app.on_callback_query(filters.regex("Adisa") & ~BANNED_USERS)
 @languageCB
 async def first_pagee(client, CallbackQuery, _):
     menu_next = second_page(_)

@@ -1,3 +1,4 @@
+
 import asyncio
 import os
 import re
@@ -48,7 +49,7 @@ class YouTubeAPI:
         messages = [message_1]
         if message_1.reply_to_message:
             messages.append(message_1.reply_to_message)
-        text = ""
+text = ""
         offset = None
         length = None
         for message in messages:
@@ -98,7 +99,7 @@ class YouTubeAPI:
     async def duration(self, link: str, videoid: Union[bool, str] = None):
         if videoid:
             link = self.base + link
-        if "&" in link:
+  if "&" in link:
             link = link.split("&")[0]
         results = VideosSearch(link, limit=1)
         for result in (await results.next())["result"]:
@@ -147,8 +148,7 @@ class YouTubeAPI:
         try:
             result = playlist.split("\n")
             for key in result:
-                if key == "":
-                    result.remove(key)
+                if key == "":                    result.remove(key)
         except:
             result = []
         return result
@@ -207,8 +207,8 @@ class YouTubeAPI:
                             "format_note": format["format_note"],
                             "yturl": link,
                         }
-                    )
-        return formats_available, link
+                    )        
+return formats_available, link
 
     async def slider(
         self,
@@ -267,8 +267,7 @@ class YouTubeAPI:
                 "outtmpl": "downloads/%(id)s.%(ext)s",
                 "geo_bypass": True,
                 "nocheckcertificate": True,
-                "quiet": True,
-                "no_warnings": True,
+                "quiet": True,  "no_warnings": True,
                 "cookiefile": cookies_file,
             }
             x = yt_dlp.YoutubeDL(ydl_optssx)

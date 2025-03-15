@@ -84,7 +84,7 @@ async def download_video(client, CallbackQuery):
         "logtostderr": False,
         "quiet": True,
         "cookiefile": cookie_txt_file(),
-    }
+     }
     try:
         with YoutubeDL(opts) as ytdl:
             ytdl_data = ytdl.extract_info(url, download=True)

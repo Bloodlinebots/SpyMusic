@@ -8,7 +8,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from youtubesearchpython import SearchVideos
 from yt_dlp import YoutubeDL
 from Spy import app
-from Spy.platforms.Youtube import cookies_file as cookie_txt_file
+#from Spy.platforms.Youtube import cookies_file as cookie_txt_file
 
 user_last_CallbackQuery_time = {}
 user_CallbackQuery_count = {}

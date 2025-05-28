@@ -105,7 +105,7 @@ async def gib_repo_callback(_, callback_query):
             has_spoiler=True, 
             caption="ʟᴜɴᴅ ʟᴇʟᴇ ᴍᴇʀᴀ ʀᴇᴘᴏ ᴋʏᴀ ᴋᴀʀᴇɢᴀ, ʟᴇɢᴀ ᴋʏᴀ ʙʜᴏsᴀᴅɪᴋᴇ"
 Raat ka sannata, dil mein udaasi,
-Sapne to the bade, par kismat thi khaali 🌙💔,
+Sapne to the bade, par kismat thi khaali,
 Kitaabon mein chhupi thi, ek kahani purani,
 Har page par tha dard, jo thi purani yahani 📚,
 Barosa tha khud par, par kabhi na tha saath,

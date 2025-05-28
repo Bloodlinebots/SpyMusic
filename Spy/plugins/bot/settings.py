@@ -103,7 +103,7 @@ async def gib_repo_callback(_, callback_query):
         media=InputMediaVideo(
             "https://telegra.ph/file/b1367262cdfbcd0b2af07.mp4", 
             has_spoiler=True, 
-            caption="
+            caption="ʟᴜɴᴅ ʟᴇʟᴇ ᴍᴇʀᴀ ʀᴇᴘᴏ ᴋʏᴀ ᴋᴀʀᴇɢᴀ, ʟᴇɢᴀ ᴋʏᴀ ʙʜᴏsᴀᴅɪᴋᴇ"
 Raat ka sannata, dil mein udaasi,
 Sapne to the bade, par kismat thi khaali 🌙💔,
 Kitaabon mein chhupi thi, ek kahani purani,

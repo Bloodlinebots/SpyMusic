@@ -196,8 +196,8 @@ class YouTubeAPI:
                         format["filesize"]
                         format["format_id"]
                         format["ext"]
-                        format["format_note"]
-                                         except:
+                        format["format_note"]    
+                    except:
                         continue
                     formats_available.append(
                         {

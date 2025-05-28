@@ -98,7 +98,7 @@ class YouTubeAPI:
 
     async def duration(self, link: str, videoid: Union[bool, str] = None):
         if videoid:            
-      link = self.base + link
+            link = self.base + link
         if "&" in link:
             link = link.split("&")[0]
         results = VideosSearch(link, limit=1)

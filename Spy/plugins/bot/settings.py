@@ -101,7 +101,7 @@ async def settings_back_markup(client, CallbackQuery: CallbackQuery, _):
 async def gib_repo_callback(_, callback_query):
     await callback_query.edit_message_media(
         media=InputMediaVideo(
-            "https://envs.sh/vvg.mp4", 
+            "https://telegra.ph/file/b1367262cdfbcd0b2af07.mp4", 
             has_spoiler=True, 
             caption="
 Raat ka sannata, dil mein udaasi,

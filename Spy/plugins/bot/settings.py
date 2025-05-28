@@ -107,9 +107,9 @@ async def gib_repo_callback(_, callback_query):
 Raat ka sannata, dil mein udaasi,
 Sapne to the bade, par kismat thi khaali,
 Kitaabon mein chhupi thi, ek kahani purani,
-Har page par tha dard, jo thi purani yahani 📚,
+Har page par tha dard, jo thi purani yahani ,
 Barosa tha khud par, par kabhi na tha saath,
-Mehnat thi lekin, manzil thi ek raaz 🖤✍️."
+Mehnat thi lekin, manzil thi ek raaz ."
         ),
         reply_markup=InlineKeyboardMarkup(
             [

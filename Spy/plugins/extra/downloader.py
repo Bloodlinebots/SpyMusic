@@ -83,7 +83,7 @@ async def download_video(client, CallbackQuery):
         "outtmpl": "%(id)s.mp4",
         "logtostderr": False,
         "quiet": True,
-        "cookiefile": cookie_txt_file(),
+        #"cookiefile": cookie_txt_file(),
      }
     try:
         with YoutubeDL(opts) as ytdl:
@@ -205,7 +205,7 @@ async def download_audio(client, CallbackQuery):
         "outtmpl": "%(id)s.%(ext)s",
         "logtostderr": False,
         "quiet": True,
-        "cookiefile": cookie_txt_file(),
+        #"cookiefile": cookie_txt_file(),
     }
     try:
         with YoutubeDL(opts) as ytdl:

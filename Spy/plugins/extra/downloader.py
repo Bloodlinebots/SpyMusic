@@ -6,7 +6,7 @@ import wget
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from youtubesearchpython import SearchVideos
-from yt_dlp import YoutubeDL
+#from yt_dlp import YoutubeDL
 from Spy import app
 #from Spy.platforms.Youtube import cookies_file as cookie_txt_file
 

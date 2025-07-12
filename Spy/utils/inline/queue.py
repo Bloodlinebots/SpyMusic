@@ -1,6 +1,6 @@
 import config
 from typing import Union
-from config import OWNER_ID
+from config import SUPPORT_CHAT
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 

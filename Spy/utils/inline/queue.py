@@ -76,6 +76,9 @@ def aq_markup(_, chat_id):
             InlineKeyboardButton(
                 text=_["S_B_9"], url=SUPPORT_CHAT,
             ),
-        ],
-    ]
+            InlineKeyboardButton(
+                    text=_["CLOSE_BUTTON"],
+                    callback_data="close",
+            ),
+        ]
     return buttons

@@ -144,7 +144,7 @@ async def support(client, CallbackQuery, _):
                 ],
                 [
                     InlineKeyboardButton(
-                        text="ᴅᴇᴠs", user_id=config.OWNER_ID
+                        text="repo", callback_data=gib_repo_callback
                     ),           
                     InlineKeyboardButton(
                         text="ʙᴀᴄᴋ", callback_data=f"settingsback_helper"

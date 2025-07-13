@@ -168,12 +168,12 @@ ping_2 : "<blockquote>Pɪɴɢ : <code>{0}ᴍs</code></blockquote>\n\n<blockquote
 queue_1 : "» ғᴇᴛᴄʜɪɴɢ ǫᴜᴇᴜᴇ...\n\nᴘʟᴇᴀsᴇ ᴡᴀɪᴛ..."
 queue_2 : "» ǫᴜᴇᴜᴇ ᴇᴍᴘᴛʏ."
 queue_3 : "<u>» ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ᴄʜᴇᴄᴋ ᴛʜᴇ ʟɪsᴛ ᴏғ ᴛʜᴇ ǫᴜᴇᴜᴇᴅ ᴛʀᴀᴄᴋs :</u> <a href={0}>ʜᴇʀᴇ</a>"
-queue_4 : "💫 Now Streaming on Apple Music Haven 💫\n🎶 Track Queued at #{0}\n\n🖤 𝑻𝒊𝒕𝒍𝒆: 〘 {1} 〙\n⏳ 𝑫𝒖𝒓𝒂𝒕𝒊𝒐𝒏: {2} ᴍɪɴꜱ\n🌟 𝑹𝒆𝒒𝒖𝒆𝒔𝒕𝒆𝒅 𝒃𝒚: {3}\n\n🎧 Sit tight. Your vibe is loading… 🍷"
+queue_4 : "<b><blockquote>Track Queued at #{0}</b>\n\n 𝑻𝒊𝒕𝒍𝒆: 〘 {1} 〙\n</b>⏳ 𝑫𝒖𝒓𝒂𝒕𝒊𝒐𝒏: {2} ᴍɪɴꜱ\n</b>🌟 𝑹𝒆𝒒𝒖𝒆𝒔𝒕𝒆𝒅 𝒃𝒚: {3}\n\n</blockquote></b>🎧 Sit tight. Your vibe is loading… 🍷"
 queue_6 : "<b>🕚 ᴅᴜʀᴀᴛɪᴏɴ :</b> ᴜɴᴋɴᴏᴡɴ ᴅᴜʀᴀᴛɪᴏɴ sᴛʀᴇᴀᴍ\n\nᴄʟɪᴄᴋ ᴏɴ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴡʜᴏʟᴇ ǫᴜᴇᴜᴇᴅ ʟɪsᴛ."
 queue_7 : "\nᴄʟɪᴄᴋ ᴏɴ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴡʜᴏʟᴇ ǫᴜᴇᴜᴇᴅ ʟɪsᴛ."
 queue_8 : "<b>{0} ᴘʟᴀʏᴇʀ</b>\n\n🎄 <b>sᴛʀᴇᴀᴍɪɴɢ :</b> {1}\n\n🔗 <b>sᴛʀᴇᴀᴍ ᴛʏᴘᴇ :</b> {2}\n🥀 <b>ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ :</b> {3}\n{4}"
 
-stream_1 : "<b><blockquote>Sᴛᴀʀᴛᴇᴅ | Pʟᴀʏɪɴɢ Iɴ Hᴇᴀᴠᴇɴ</b>\n\n<b>➣ Tɪᴛʟᴇ :</b> <a href={0}>{1}</a>\n<b>➦ Dᴜʀᴀᴛɪᴏɴ :</b> {2} ᴍɪɴᴜᴛᴇs\n<b>➦ Rᴇǫᴜᴇsᴛᴇᴅ ʙʏ :</b> {3}</blockquote>\n\n||<b><blockquote>ᴍᴀᴅᴇ ᴡɪᴛʜ <a href=\"https://t.me/unbornedvillian\">˹ᴀɪᴍʙᴏᴛ˼</a></blockquote></b>||"
+stream_1 : "<b><blockquote>Sᴛᴀʀᴛᴇᴅ | Pʟᴀʏɪɴɢ Iɴ Hᴇᴀᴠᴇɴ</b>\n\n<b>➣ Tɪᴛʟᴇ :</b> <a href={0}>{1}</a>\n<b>➦ Dᴜʀᴀᴛɪᴏɴ :</b> {2} ᴍɪɴᴜᴛᴇs\n<b>➦ Rᴇǫᴜᴇsᴛᴇᴅ ʙʏ :</b> {3}</blockquote>\n\n||<b><blockquote>"
 stream_2 : "๏ <b>Sᴛᴀʀᴛᴇᴅ Sᴛʀᴇᴀᴍɪɴɢ |</b>\n\n<b>‣ Sᴛʀᴇᴀᴍ ᴛʏᴘᴇ :</b> ʟɪᴠᴇ sᴛʀᴇᴀᴍ [ᴜʀʟ]\n<b>‣ Rᴇǫᴜᴇsᴛᴇᴅ ʙʏ :</b> {0}\n\nᴍᴀᴅᴇ ᴡɪᴛʜ <a href=\"https://t.me/unbornvillian\">˹zeus˼</a>"
 
 

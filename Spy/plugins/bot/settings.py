@@ -69,23 +69,7 @@ async def settings_cb(client, CallbackQuery, _):
         ),
         reply_markup=InlineKeyboardMarkup(buttons),
     )
-@app.on_callback_query(filters.regex("gib_source"))
-async def gib_repo_callback(_, callback_query):
-    await callback_query.edit_message_media(
-        media=InputMediaVideo(
-            "https://telegra.ph/file/b1367262cdfbcd0b2af07.mp4", 
-            has_spoiler=True, 
-            caption="ʟᴜɴᴅ ʟᴇʟᴇ ᴍᴇʀᴀ ʀᴇᴘᴏ ᴋʏᴀ ᴋᴀʀᴇɢᴀ, ʟᴇɢᴀ ᴋʏᴀ ʙʜᴏsᴀᴅɪᴋᴇ"
-        ),
-        reply_markup=InlineKeyboardMarkup(
-            [
-                [
-                    InlineKeyboardButton(text="• ʙᴀᴄᴋ •", callback_data="settingsback_helper"),
-                    InlineKeyboardButton(text="• ᴄʟᴏsᴇ •", callback_data="close")
-                ]
-            ]
-        ),
-    )
+
 
 @app.on_callback_query(filters.regex("settingsback_helper") & ~BANNED_USERS)
 @languageCB
@@ -111,6 +95,25 @@ async def settings_back_markup(client, CallbackQuery: CallbackQuery, _):
         return await CallbackQuery.edit_message_reply_markup(
             reply_markup=InlineKeyboardMarkup(buttons)
         )
+
+
+@app.on_callback_query(filters.regex("gib_source"))
+async def gib_repo_callback(_, callback_query):
+    await callback_query.edit_message_media(
+        media=InputMediaVideo(
+            "https://telegra.ph/file/b1367262cdfbcd0b2af07.mp4", 
+            has_spoiler=True, 
+            caption="ʟᴜɴᴅ ʟᴇʟᴇ ᴍᴇʀᴀ ʀᴇᴘᴏ ᴋʏᴀ ᴋᴀʀᴇɢᴀ, ʟᴇɢᴀ ᴋʏᴀ ʙʜᴏsᴀᴅɪᴋᴇ"
+        ),
+        reply_markup=InlineKeyboardMarkup(
+            [
+                [
+                    InlineKeyboardButton(text="• ʙᴀᴄᴋ •", callback_data="settingsback_helper"),
+                    InlineKeyboardButton(text="• ᴄʟᴏsᴇ •", callback_data="close")
+                ]
+            ]
+        ),
+    )
 
 @app.on_callback_query(filters.regex("^bot_info_data$"))
 async def show_bot_info(c: app, q: CallbackQuery):
@@ -144,7 +147,7 @@ async def support(client, CallbackQuery, _):
                 ],
                 [
                     InlineKeyboardButton(
-                        text="repo", callback_data=gib_repo_callback
+                        text="ᴅᴇᴠs", user_id=config.OWNER_ID
                     ),           
                     InlineKeyboardButton(
                         text="ʙᴀᴄᴋ", callback_data=f"settingsback_helper"

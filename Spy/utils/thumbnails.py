@@ -115,7 +115,7 @@ async def get_thumb(videoid):
         name_font = ImageFont.truetype("Spy/assets/font.ttf", 30)
         para = textwrap.wrap(title, width=30)
         j = 0
-        draw.text((5, 5), f"「⋆ ᴀᴘᴘʟᴇ ✘ ᴍᴜsɪᴄ ◉」", fill="white", font=name_font)
+        draw.text((5, 5), f"apple music", fill="white", font=name_font)
         for line in para:
             if j == 1:
                 j += 1

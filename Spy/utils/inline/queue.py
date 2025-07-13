@@ -76,4 +76,4 @@ def aq_markup(_, chat_id):
             ),
         ]
     ]
-    return InlineKeyboardMarkup(buttons)
+    return buttons
